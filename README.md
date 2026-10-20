@@ -7,10 +7,10 @@
 
 A reproducible workflow for integrating synthetic electronic health record (EHR) and genomic data to explore real-world evidence (RWE), clinical cohort construction, and longitudinal patient outcomes.
 
-# 🚧*=======================================*🚧
-# 🚧*!!!!!!!! Project in Progress !!!!!!!!!!*🚧
-# 🚧 The workflow is currently functional through the `ETL_Synthea.R` step. Additional integration, analysis, and documentation are under development.
-# 🚧*=======================================*🚧
+## 🚧=======================================🚧
+## 🚧*!!!!!!!! Project in Progress !!!!!!!!!!*🚧
+## 🚧 The workflow is currently functional through the `ETL_Synthea.R` step. Additional integration, analysis, and documentation are under development.
+## 🚧=======================================🚧
 
 ---
 
