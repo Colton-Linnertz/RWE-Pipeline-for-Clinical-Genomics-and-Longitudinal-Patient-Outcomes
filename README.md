@@ -151,12 +151,12 @@ wget https://github.com/synthetichealth/synthea/releases/download/v3.3.0/synthea
 - Configure the PostgreSQL connection and target schemas locally
 - Use 'pgAdmin' to create a Database called 'syntheadb'
 
-PostgreSQL schema   Contents
-====================================================================
-native              Raw Synthea CSV imports
-cdm                 OMOP-standardized clinical tables
-genomics            Custom synthetic genomic tables and annotations
-analysis            Derived cohorts, features, and outcome tables
+| PostgreSQL Schema | Contents |
+|-------------------|----------|
+| `native` | Raw Synthea CSV imports |
+| `cdm` | OMOP-standardized clinical tables |
+| `genomics` | Custom synthetic genomic tables and annotations |
+| `analysis` | Derived cohorts, features, and outcome tables |
 
 
 ## [OHDSI](https://www.ohdsi.org/software-tools/)
