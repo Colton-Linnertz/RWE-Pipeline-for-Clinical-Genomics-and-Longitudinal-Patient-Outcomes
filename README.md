@@ -7,10 +7,10 @@
 
 A reproducible workflow for integrating synthetic electronic health record (EHR) and genomic data to explore real-world evidence (RWE), clinical cohort construction, and longitudinal patient outcomes.
 
-## 🚧=======================================🚧
-## 🚧*!!!!!!!! Project in Progress !!!!!!!!!!*🚧
-## 🚧 The workflow is currently functional through the `ETL_Synthea.R` step. Additional integration, analysis, and documentation are under development.
-## 🚧=======================================🚧
+### 🚧=======================================🚧
+### 🚧*!!!!!!!! Project in Progress !!!!!!!!!!*🚧
+### 🚧 The workflow is currently functional through the `ETL_Synthea.R` step. Additional integration, analysis, and documentation are under development.
+### 🚧=======================================🚧
 
 ---
 
@@ -63,6 +63,7 @@ The workflow is designed to demonstrate data ingestion, database integration, co
 | ETL-SyntheaBuilder | Loading Synthea data into database tables |
 | Git and GitHub | Version control and project documentation |
 
+
 ## Repository Structure
 
 ```text
@@ -85,6 +86,7 @@ RWE-Pipeline/
 
 *Note: This structure illustrates the intended organization. Scripts and directories may be added as development progresses. Generated data and local credentials should not be committed to the repository.*
 
+
 ## Data Sources
 
 ### Synthetic clinical data
@@ -96,6 +98,7 @@ Synthea generates synthetic patient records and associated healthcare informatio
 A separate synthetic genomic dataset is planned to represent variant calls and gene annotations. Genomic records will be linked to synthetic patients through explicit identifiers and documented assumptions.
 
 **Important:** Genomic records added to this project are simulated extensions; they are not standard Synthea outputs.
+
 
 ## Pipeline Steps
 
@@ -110,6 +113,7 @@ A separate synthetic genomic dataset is planned to represent variant calls and g
 | 7. Reporting | Generate reproducible tables, summaries, and visualizations | Planned |
 
 *Update the status column as individual steps are implemented and tested.*
+
 
 ## Getting Started
 
@@ -141,7 +145,8 @@ cd ~/synthea
 
 wget https://github.com/synthetichealth/synthea/releases/download/v3.3.0/synthea-with-dependencies.jar
 ```
-### RUN `synthea.sh` to generate synthetic patient records in csv files
+#### RUN `synthea.sh` to generate synthetic patient records in csv files
+
 
 
 ## [PostgreSQL]: database schema
@@ -159,6 +164,7 @@ wget https://github.com/synthetichealth/synthea/releases/download/v3.3.0/synthea
 | `analysis` | Derived cohorts, features, and outcome tables |
 
 
+
 ## [OHDSI](https://www.ohdsi.org/software-tools/)
 ==========
 - OHDSI provides open-source tools for cohort construction, patient characterization, and observational analyses.
@@ -166,6 +172,7 @@ wget https://github.com/synthetichealth/synthea/releases/download/v3.3.0/synthea
 
 ### Build Standardized Vocabulary Tables with [ATHENA](https://athena.ohdsi.org/)
 - Required for ETL-Synthea to load clinical data into the database
+
 
 ## [OHDSI ETL-Synthea]: a Utility to Load Synthea CSV data to OMOP CDM
 =====================================================================
