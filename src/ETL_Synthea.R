@@ -17,8 +17,8 @@ library(DatabaseConnector)
 cd <- DatabaseConnector::createConnectionDetails(
   dbms     = "postgresql", 
   server   = "localhost/syntheadb",
-  user     = "postgres", 
-  password = "clinical", 
+  user     = "user_name", 
+  password = "password", 
   port     = 5432, 
   pathToDriver = "/drivers"  
 )
