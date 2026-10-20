@@ -13,8 +13,8 @@ con <- dbConnect(
   dbname = "syntheadb",
   host = "localhost",
   port = 5432,
-  user = "postgres",
-  password = "clinical"
+  user = "user_name",
+  password = "password"
 )
 
 # Create the genomics schema 
