@@ -1,0 +1,7 @@
+variant_id,annotation_source,gene_symbol,consequence,transcript_id,clinical_significance
+SYN-V001,synthetic_annotation,TP53,missense_variant,SYN-TX-TP53-001,uncertain_significance
+SYN-V002,synthetic_annotation,BRCA1,missense_variant,SYN-TX-BRCA1-001,not_assessed
+SYN-V003,synthetic_annotation,BRAF,missense_variant,SYN-TX-BRAF-001,not_assessed
+SYN-V004,synthetic_annotation,PIK3CA,frameshift_variant,SYN-TX-PIK3CA-001,not_assessed
+SYN-V005,synthetic_annotation,KRAS,missense_variant,SYN-TX-KRAS-001,not_assessed
+SYN-V006,synthetic_annotation,CDKN2A,missense_variant,SYN-TX-CDKN2A-001,not_assessed

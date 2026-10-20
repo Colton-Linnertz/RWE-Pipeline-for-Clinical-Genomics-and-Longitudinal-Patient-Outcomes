@@ -1,0 +1,5 @@
+sample_id,person_id,sample_type,genome_build,data_origin,source_sample_id
+SYN-S001-T,SYN-P001,tumor,GRCh38,synthetic_demo,DEMO-001-T
+SYN-S001-N,SYN-P001,normal,GRCh38,synthetic_demo,DEMO-001-N
+SYN-S002-T,SYN-P002,tumor,GRCh38,synthetic_demo,DEMO-002-T
+SYN-S003-T,SYN-P003,tumor,GRCh38,synthetic_demo,DEMO-003-T

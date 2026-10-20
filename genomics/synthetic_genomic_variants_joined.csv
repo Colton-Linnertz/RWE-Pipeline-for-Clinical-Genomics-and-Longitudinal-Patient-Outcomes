@@ -1,0 +1,8 @@
+sample_id,variant_id,genotype,allele_depth,depth,allele_fraction,person_id,sample_type,genome_build,data_origin,source_sample_id,chromosome,position,reference_allele,alternate_allele,variant_type,filter_status,source_vcf,annotation_source,gene_symbol,consequence,transcript_id,clinical_significance
+SYN-S001-T,SYN-V001,0/1,42,88,0.477,SYN-P001,tumor,GRCh38,synthetic_demo,DEMO-001-T,17,7674220,C,T,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,TP53,missense_variant,SYN-TX-TP53-001,uncertain_significance
+SYN-S001-T,SYN-V002,0/1,31,72,0.431,SYN-P001,tumor,GRCh38,synthetic_demo,DEMO-001-T,17,43071077,G,A,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,BRCA1,missense_variant,SYN-TX-BRCA1-001,not_assessed
+SYN-S001-N,SYN-V001,0/0,0,64,0.0,SYN-P001,normal,GRCh38,synthetic_demo,DEMO-001-N,17,7674220,C,T,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,TP53,missense_variant,SYN-TX-TP53-001,uncertain_significance
+SYN-S002-T,SYN-V003,0/1,27,61,0.443,SYN-P002,tumor,GRCh38,synthetic_demo,DEMO-002-T,7,140753336,A,T,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,BRAF,missense_variant,SYN-TX-BRAF-001,not_assessed
+SYN-S002-T,SYN-V004,0/1,19,53,0.358,SYN-P002,tumor,GRCh38,synthetic_demo,DEMO-002-T,3,178936091,C,CA,INS,PASS,synthetic_demo.vcf,synthetic_annotation,PIK3CA,frameshift_variant,SYN-TX-PIK3CA-001,not_assessed
+SYN-S003-T,SYN-V005,0/1,36,79,0.456,SYN-P003,tumor,GRCh38,synthetic_demo,DEMO-003-T,12,25398284,C,T,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,KRAS,missense_variant,SYN-TX-KRAS-001,not_assessed
+SYN-S003-T,SYN-V006,0/1,24,58,0.414,SYN-P003,tumor,GRCh38,synthetic_demo,DEMO-003-T,9,21971120,G,A,SNV,PASS,synthetic_demo.vcf,synthetic_annotation,CDKN2A,missense_variant,SYN-TX-CDKN2A-001,not_assessed

@@ -1,0 +1,7 @@
+variant_id,chromosome,position,reference_allele,alternate_allele,variant_type,filter_status,source_vcf
+SYN-V001,17,7674220,C,T,SNV,PASS,synthetic_demo.vcf
+SYN-V002,17,43071077,G,A,SNV,PASS,synthetic_demo.vcf
+SYN-V003,7,140753336,A,T,SNV,PASS,synthetic_demo.vcf
+SYN-V004,3,178936091,C,CA,INS,PASS,synthetic_demo.vcf
+SYN-V005,12,25398284,C,T,SNV,PASS,synthetic_demo.vcf
+SYN-V006,9,21971120,G,A,SNV,PASS,synthetic_demo.vcf
